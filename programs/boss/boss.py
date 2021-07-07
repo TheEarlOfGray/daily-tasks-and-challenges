@@ -1,5 +1,4 @@
 def good_boss(name):
-    print(name + " is a good boss!")
     return f"{name} is a good boss!"
 
 

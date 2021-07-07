@@ -1,3 +1,3 @@
 import boss
 
-boss.good_boss("Bill Steves")
+print(boss.good_boss("Bill Steves"))
