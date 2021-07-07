@@ -1,2 +1,4 @@
-result = input("Gimme a sentance: ")
-print(sorted(set(list(result.split(" ")))))
+
+def alphasort(var1):
+    answer = sorted(set(list(var1.split(" "))))
+    return answer
