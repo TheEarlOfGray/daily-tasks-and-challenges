@@ -1,17 +1,13 @@
 def fibonacci(n):
-    n1 = 0
-    n2 = 0
     if n == 0:
-        return n1
+        return 0
     elif n == 1:
-        return n2
+        return 1
     else:
-        for i in range(2, n):
-            next = n1 + n2
-            n1 = n2
-            n2 = next
-        return n2
+        answer = fibonacci(n - 1) + fibonacci(n - 2)
+        return answer
 
 
-n = int(input("Enter nth number: "))
-print(fibonacci(n))
+if __name__ == "__main__":
+    n = int(input("Enter nth number: "))
+    print(fibonacci(n))
